@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+    
+    <ImageView
+	    android:id="@+id/img"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/aim" 
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="50px"/>
+    
+	<EditText 
+	    android:id="@+id/company"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="输入快递公司名称"
+	    android:textSize="50px"
+	    android:layout_marginTop="20px"
+	    android:layout_below="@+id/img"
+	    />
+	<EditText 
+	    android:id="@+id/number"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="输入快递单号"
+	    android:textSize="50px"
+	    android:layout_marginTop="20px"
+	    android:layout_below="@+id/company"
+	    />
+	
+	<Button 
+	    android:id="@+id/showWuli"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="查询"
+	    android:textSize="50px"
+	    android:layout_below="@+id/number"
+	    android:layout_marginTop="20px"
+	    />
+
+	
+
+</RelativeLayout>
